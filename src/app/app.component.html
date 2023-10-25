@@ -1,0 +1,12 @@
+<div class="nav">
+    <div class="header">
+        Velov-Helper
+    </div>
+  <div class="icons">
+      <div *ngFor="let icon of icons" >
+          <app-icon [name]="icon.name" [selected]="icon.selected" (Onclick)="selectIcon(icon)"/>
+      </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

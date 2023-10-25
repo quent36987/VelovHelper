@@ -1,0 +1,10 @@
+.icon {
+  background-color: var(--color-bg-1);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-s);
+}
+
+.selected{
+  background-color: var(--color-theme-1);
+  color: var(--color-bg-2);
+}

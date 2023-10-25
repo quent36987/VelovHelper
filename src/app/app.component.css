@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap');
+
+.nav{
+  background-image: linear-gradient(to bottom,
+  var(--color-theme-2),
+  var(--color-bg-1));
+}
+
+.header {
+  padding: var(--spacing-m);
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Playpen Sans', sans-serif;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-s);
+  justify-content: space-evenly;
+  padding: var(--spacing-s);
+}
