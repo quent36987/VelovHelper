@@ -8,7 +8,7 @@ describe('PageLocationComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [PageLocationComponent]
+      declarations: [PageLocationComponent],
     });
     fixture = TestBed.createComponent(PageLocationComponent);
     component = fixture.componentInstance;

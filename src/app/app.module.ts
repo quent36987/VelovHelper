@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IconComponent } from './icon/icon.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatIconModule} from "@angular/material/icon";
+import { MatIconModule } from '@angular/material/icon';
 import { PageFavoriteComponent } from './page-favorite/page-favorite.component';
 import { PageLocationComponent } from './page-location/page-location.component';
 import { PageSearchComponent } from './page-search/page-search.component';
@@ -20,15 +20,15 @@ import { PageStationComponent } from './page-station/page-station.component';
     PageLocationComponent,
     PageSearchComponent,
     StationComponent,
-    PageStationComponent
+    PageStationComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

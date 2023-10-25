@@ -8,7 +8,7 @@ describe('PageSearchComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [PageSearchComponent]
+      declarations: [PageSearchComponent],
     });
     fixture = TestBed.createComponent(PageSearchComponent);
     component = fixture.componentInstance;

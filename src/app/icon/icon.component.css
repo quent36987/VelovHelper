@@ -4,7 +4,7 @@
   padding: var(--spacing-s);
 }
 
-.selected{
+.selected {
   background-color: var(--color-theme-1);
   color: var(--color-bg-2);
 }

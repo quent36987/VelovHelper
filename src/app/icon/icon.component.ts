@@ -1,9 +1,9 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-icon',
   templateUrl: './icon.component.html',
-  styleUrls: ['./icon.component.css']
+  styleUrls: ['./icon.component.css'],
 })
 export class IconComponent {
   @Input() selected: boolean = false;
@@ -14,5 +14,4 @@ export class IconComponent {
   onClick() {
     this.Onclick.emit();
   }
-
 }
