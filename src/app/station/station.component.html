@@ -1,5 +1,21 @@
 <div class="station">
-  <div>
+  <div class="title">
     {{ station?.name }}
+  </div>
+
+  <div class="info">
+    <div class="bikes">
+      <div>
+        {{ station?.bikes }}
+      </div>
+      <mat-icon class="icon">directions_bike</mat-icon>
+    </div>
+
+    <div class="slots">
+      <div>
+        {{ station?.slots }}
+      </div>
+      <mat-icon class="icon">local_parking</mat-icon>
+    </div>
   </div>
 </div>
